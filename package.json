@@ -1,0 +1,21 @@
+{
+  "name": "api-node-with-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AlbertdePaula/Api-with-node-and-Prisma.git",
+  "author": "Albert_Remote <albert_depaula@yahoo.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts:node-dev --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "prisma": "^4.3.1",
+    "ts-node-dev": "^2.0.0",
+    "typecript": "^0.0.1-security"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.3.1",
+    "express": "^4.18.1"
+  }
+}
