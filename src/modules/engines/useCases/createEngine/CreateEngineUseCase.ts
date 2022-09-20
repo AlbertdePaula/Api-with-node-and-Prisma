@@ -1,8 +1,10 @@
-import { prisma } from './../../../../prisma/client';
+
 import { CreateEngineDTO } from "../../dtos/CreateEngineDTO";
 import { Engine } from "@prisma/client"
+import { prisma } from "../../../../prisma/client";
 
-export class CreateUserUseCase {
+
+export class CreateEngineUseCase {
     async execute(
         {   tag,
             description,
@@ -11,7 +13,7 @@ export class CreateUserUseCase {
             rpm
         }: CreateEngineDTO): Promise<Engine> {
         //Verificar se o código já existe;
-        const engineAlreadyExist = await prisma.tag.findUnique({
+        const engineAlreadyExist = await prisma.engine.findUnique({
             where: {
                 tag
             },
@@ -31,6 +33,6 @@ export class CreateUserUseCase {
                 rpm
             }
         });
-
+        return engine;
     }
 }

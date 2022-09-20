@@ -1,5 +1,4 @@
 export interface CreateEngineDTO {
-    id: number;
     tag: string;
     description: string;
     current: number;
