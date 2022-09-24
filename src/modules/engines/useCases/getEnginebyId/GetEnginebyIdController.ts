@@ -1,13 +1,17 @@
-import { GetEnginebyIdUseCase } from "./GetEnginebyIdUseCase";
 import { Request, Response } from "express";
+import { prisma } from "../../../../prisma/client";
 
 export class GetEnginebyIdController {
-    async handle(req: Request, res: Response) {
+    async handle(request: Request, response: Response) {
+        const { id } = request.params;
 
-        const getEnginebyIdUseCase = new GetEnginebyIdUseCase();
+        const engine = await prisma.engine.findUnique({
+            where: {
+                id,
+            },
+        });
 
-        const result = await getEnginebyIdUseCase.execute();
+        return response.json(engine);
 
-        return res.status(200).json(result);
     }
 }
