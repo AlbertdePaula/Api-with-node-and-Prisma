@@ -1,3 +1,4 @@
 node_modules
-# Keep environment variables out of version control
+npm-debug.log
+.DS_Store
 .env

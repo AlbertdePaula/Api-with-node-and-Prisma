@@ -6,7 +6,9 @@
   "author": "Albert_Remote <albert_depaula@yahoo.com.br>",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/server.ts"
+    "build": "prisma generate",
+    "dev": "PORT=3000 node src/server.js",
+    "start": "node src/server.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
