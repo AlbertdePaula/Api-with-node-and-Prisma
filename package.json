@@ -6,7 +6,7 @@
   "author": "Albert_Remote <albert_depaula@yahoo.com.br>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node --exit-child --transpile-only --ignore-watch node_modules src/server.ts"
+    "start": "ts-node src/server.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.14",
