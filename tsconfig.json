@@ -8,9 +8,4 @@
         ],
         "esModuleInterop": true
     },
-
-    "typeRoots": [
-        "./typings",
-        "./node_modules/@types/"
-      ]
 }
