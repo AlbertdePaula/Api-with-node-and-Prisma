@@ -1,3 +1,5 @@
+declare module 'express';
+
 import "express-async-errors"
 import { NextFunction, Response } from 'express';
 import { Request } from 'express';
