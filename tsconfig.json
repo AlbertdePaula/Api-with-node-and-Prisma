@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "sourceMap": true,
+        "noImplicitAny": false,
         "outDir": "dist",
         "strict": true,
         "lib": [
