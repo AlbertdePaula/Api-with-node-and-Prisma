@@ -7,7 +7,6 @@
   "license": "MIT",
   "scripts": {
     "build": "prisma generate",
-    "dev": "PORT=3000 node src/index.ts",
     "start": "ts-node src/server.ts"
   },
   "devDependencies": {
