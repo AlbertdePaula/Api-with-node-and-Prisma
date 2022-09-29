@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "prisma generate",
-    "start": "ts-node src/server"
+    "start": "ts-node src/server.ts"
   },
   "devDependencies": {
     "@types/express": "^4.17.14", 

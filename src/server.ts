@@ -1,9 +1,7 @@
-import express from 'express';
-
 import "express-async-errors"
 import { NextFunction, Response } from 'express';
 import { Request } from 'express';
-import { request } from 'express';
+import express, { request } from 'express';
 import { routes } from './routes';
 import { AppError } from "./errors/AppError";
 
