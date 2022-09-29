@@ -108,6 +108,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.18.tgz#633184f55c322e4fb08612307c274ee6d5ed3154"
   integrity sha512-m+6nTEOadJZuTPkKR/SYK3A2d7FZrgElol9UP1Kae90VVU4a6mxnPuLiIW1m4Cq4gZ/nWb9GrdVXJCoCazDAbg==
 
+"@types/node@^18.7.23":
+  version "18.7.23"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.23.tgz#75c580983846181ebe5f4abc40fe9dfb2d65665f"
+  integrity sha512-DWNcCHolDq0ZKGizjx2DZjR/PqsYwAcYUJmfMWqtVU2MBMG5Mo+xFZrhGId5r/O5HOuMPyQEcM6KUBp5lBZZBg==
+
 "@types/qs@*":
   version "6.9.7"
   resolved "https://registry.yarnpkg.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
@@ -710,6 +715,11 @@ safe-buffer@5.2.1:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+save-dev@^0.0.1-security:
+  version "0.0.1-security"
+  resolved "https://registry.yarnpkg.com/save-dev/-/save-dev-0.0.1-security.tgz#5eb7267e25a8709c20ac336f0101c8d35900ca5e"
+  integrity sha512-k6knZTDNK8PKKbIqnvxiOveJinuw2LcQjqDoaorZWP9M5AR2EPsnpDeSbeoZZ0pHr5ze1uoaKdK8NBGQrJ34Uw==
 
 send@0.18.0:
   version "0.18.0"
