@@ -4,9 +4,11 @@ import { Request } from 'express';
 import express, { request } from 'express';
 import { routes } from './routes';
 import { AppError } from "./errors/AppError";
+import cors from "cors";
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 app.use(routes);
