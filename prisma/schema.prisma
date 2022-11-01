@@ -14,6 +14,8 @@ model Engine {
   current     Float
   power       Float
   rpm         Int
+  area        String
+  created_for String
   created_at  DateTime @default(now())
   updated_at  DateTime @updatedAt
 

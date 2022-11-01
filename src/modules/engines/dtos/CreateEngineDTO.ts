@@ -4,4 +4,6 @@ export interface CreateEngineDTO {
     current: number;
     power: number;
     rpm: number;
+    area: string;
+    created_for: string;
 }

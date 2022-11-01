@@ -6,6 +6,8 @@ CREATE TABLE "engines" (
     "current" DOUBLE PRECISION NOT NULL,
     "power" DOUBLE PRECISION NOT NULL,
     "rpm" INTEGER NOT NULL,
+    "area" TEXT NOT NULL,
+    "created_for" TEXT NOT NULL,
     "created_at" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
     "updated_at" TIMESTAMP(3) NOT NULL,
 

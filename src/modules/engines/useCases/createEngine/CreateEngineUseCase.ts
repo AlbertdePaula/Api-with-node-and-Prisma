@@ -6,11 +6,14 @@ import { prisma } from "../../../../prisma/client";
 
 export class CreateEngineUseCase {
     async execute(
-        {   tag,
+        {   
+            tag,
             description,
             current,
             power,
-            rpm
+            rpm,
+            area,
+            created_for
         }: CreateEngineDTO): Promise<Engine> {
         //Verificar se o código já existe;
         const engineAlreadyExist = await prisma.engine.findUnique({
@@ -30,7 +33,9 @@ export class CreateEngineUseCase {
                 description,
                 current,
                 power,
-                rpm
+                rpm,
+                area,
+                created_for
             }
         });
         return engine;
